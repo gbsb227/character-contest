@@ -1,0 +1,231 @@
+body,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: yellowgreen;
+}
+.out {
+  width: 700px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.hairb {
+  width: 400px;
+  height: 500px;
+  background-color: rgb(87, 56, 34);
+  border-radius: 200px 200px 0 0;
+  position: absolute;
+  top: 185px;
+  left: 150px;
+
+  z-index: 10;
+}
+.hairfl {
+  width: 150px;
+  height: 100px;
+  background-color: rgb(87, 56, 34);
+  border-radius: 0 0 100% 0;
+  position: absolute;
+  top: 290px;
+  left: 190px;
+
+  z-index: 100;
+}
+
+.hairfr {
+  width: 230px;
+  height: 100px;
+  background-color: rgb(87, 56, 34);
+  border-radius: 0 0 0 100%;
+  position: absolute;
+  top: 290px;
+  left: 290px;
+
+  z-index: 100;
+}
+
+.face {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(255, 237, 210);
+  border-radius: 0 0 130px 130px;
+  position: absolute;
+  top: 300px;
+  left: 200px;
+
+  z-index: 50;
+}
+
+.eyebrl {
+  width: 100px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50px;
+  position: absolute;
+  top: 355px;
+  left: 225px;
+
+  transform: rotate(355deg);
+  z-index: 150;
+}
+
+.eyebrr {
+  width: 100px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50px;
+  position: absolute;
+  top: 350px;
+  left: 370px;
+  transform: rotate(3deg);
+  z-index: 150;
+}
+
+.eyel {
+  width: 70px;
+  height: 10px;
+  background-color: black;
+  border-radius: 10px;
+  position: absolute;
+  top: 420px;
+  left: 242px;
+
+  z-index: 60;
+}
+
+.eyer {
+  width: 70px;
+  height: 10px;
+  background-color: black;
+  border-radius: 10px;
+  position: absolute;
+  top: 420px;
+  left: 387px;
+  z-index: 60;
+}
+
+.nose {
+  width: 20px;
+  height: 7px;
+  border-radius: 50px 50px 20px 20px;
+  background-color: rgb(223, 211, 203);
+
+  position: absolute;
+  top: 480px;
+  left: 340px;
+  z-index: 60;
+}
+
+.mouth {
+  width: 100px;
+  height: 50px;
+  background-color: rgb(255, 140, 99);
+  border-radius: 10px 10px 40px 40px;
+  position: absolute;
+  top: 520px;
+  left: 300px;
+  z-index: 60;
+}
+
+.earl {
+  width: 40px;
+  height: 80px;
+  background-color: rgb(255, 237, 210);
+  border-radius: 150px 150px 0px 300px;
+  position: absolute;
+  top: 405px;
+  left: 170px;
+  transform: rotate(350deg);
+  z-index: 90;
+}
+
+.earr {
+  width: 40px;
+  height: 80px;
+  background-color: rgb(255, 237, 210);
+  border-radius: 150px 150px 300px 0px;
+  position: absolute;
+  top: 405px;
+  left: 490px;
+  transform: rotate(10deg);
+  z-index: 40;
+}
+.glass {
+  width: 300px;
+  height: 500px;
+  position: absolute;
+  top: 315px;
+  left: 202px;
+  z-index: 110;
+}
+
+.glasslegl {
+  width: 30px;
+  height: 6px;
+  background-color: rgb(74, 34, 19);
+  border-radius: 10px;
+
+  position: absolute;
+  top: 100px;
+  left: -5px;
+
+  transform: rotate(25deg);
+}
+
+.glassl {
+  width: 100px;
+  height: 90px;
+  border: 5px solid rgb(74, 34, 19);
+  border-radius: 40px 40px 60px 60px;
+  position: absolute;
+  top: 75px;
+  left: 20px;
+}
+
+.glassnoseleg {
+  width: 40px;
+  height: 10px;
+  background-color: rgb(74, 34, 19);
+
+  position: absolute;
+  top: 110px;
+  left: 130px;
+}
+
+.glassr {
+  width: 100px;
+  height: 90px;
+  border: 5px solid rgb(74, 34, 19);
+  border-radius: 40px 40px 60px 60px;
+  position: absolute;
+  top: 75px;
+  left: 165px;
+}
+
+.glasslegr {
+  width: 30px;
+  height: 6px;
+  background-color: rgb(74, 34, 19);
+  border-radius: 10px;
+
+  position: absolute;
+  top: 100px;
+  left: 270px;
+
+  transform: rotate(335deg);
+}
+
+.drop {
+  width: 10px;
+  height: 90px;
+  background-color: rgb(198, 233, 235);
+  border-radius: 10px;
+  position: absolute;
+  top: 530px;
+  left: 390px;
+  z-index: 50;
+}
